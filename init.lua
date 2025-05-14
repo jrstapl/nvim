@@ -2,7 +2,8 @@
 require("config.lazy")
 
 
-vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
-vim.opt.smarttab = true
+vim.opt.expandtab = true -- insert spaces instead of \t
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
 
