@@ -1,8 +1,9 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 require("mason").setup()
+require("mason-lspconfig").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = { "gopls" },
+  ensure_installed = { "gopls", "pylsp", "lua_ls", "rust_analyzer" },
 })
 
 vim.opt.tabstop = 4
