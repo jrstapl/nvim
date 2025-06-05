@@ -4,7 +4,6 @@ return {
     "gofumpt",
     "goimports-reviser",
     "golines",
-    "pylsp",
     "lua-lanugage-server",
     "stylua",
     "rust-analyzer",
